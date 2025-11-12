@@ -111,19 +111,15 @@ An advanced query combining inventory and sales data.
 
 To replicate this analysis, you will need a relational database management system (RDBMS) that supports standard SQL (e.g., PostgreSQL, MySQL, SQL Server).
 
-1.  **Clone the Repository:**
-    ```bash
-    git clone [Your Repository URL]
-    ```
 
-2.  **Create the Database and Tables:**
+1.  **Create the Database and Tables:**
     Execute the DDL script provided in the main file (or a separate `schema.sql` file) to create the `Books`, `Customers`, and `Orders` tables.
     *(The script includes `DROP TABLE IF EXISTS` for easy re-creation).*
 
-3.  **Insert Sample Data:**
+2.  **Insert Sample Data:**
     Populate the tables with sample data (INSERT statements are not shown here but would typically be in a `data.sql` file).
 
-4.  **Run Analysis Queries:**
+3.  **Run Analysis Queries:**
     Execute the 20 analytical queries to perform the data analysis and retrieve the insights.
 
 ---
